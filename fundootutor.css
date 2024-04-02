@@ -1,0 +1,306 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+img{
+    max-width: 200px;
+}
+.nav{
+    margin-left: 25px;
+}
+a{
+    color: rgb(2, 138, 115);
+    font-weight: 500;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-right: 50px;
+}
+button{
+    color: white;
+    background-color:rgb(2, 138, 115) ;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+.section1 > img{
+    max-width: 100%;
+
+}
+
+
+
+/* section 2 from here */
+
+
+
+
+.section2{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 70px;
+}
+.section2 > .left{
+    height: 75vh;
+    max-width: 50%;
+    background-image: url(/95a82da3-9af6-4cc8-95b1-e55fde5abdc2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+
+}
+.section2 > .left > #big{
+    font-size: 45px;
+    color: black;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 55px;
+    padding-top: 37px;
+}
+.section2 > .left > #normal{
+    font-size: 23px;
+    font-weight: 600px;
+    padding-top: 30px;
+    padding-left: 55px;
+}
+.section2 > .right > iframe{
+    padding-top: 60px;
+    margin-left: 80px;
+}
+.section2 > .right > img{
+    display: block;
+    justify-content: center;
+    max-width: 250px;
+    padding-top: 40px;
+    margin-left: 270px;
+}
+.section2 > .left > #small{
+    font-size: 22px;
+    font-weight: 600px;
+    padding-top: 30px;
+    padding-left: 55px;
+}
+
+
+/* SECTION 3 CSS STARTS FROM HERE  */
+
+
+
+.section3{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 70px;
+    font-size: 38px;
+    font-weight: 600;
+    background-image: url(/22240311-1d3b-419b-a9f1-7973902bc7a4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* max-width: 60%; */
+    background-position: 190px;
+}
+
+
+/* SECTION 4 CSS STARTS FROM HERE  */
+
+
+
+.section4 > img{
+    max-width: 85%;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+
+
+/* SECTION 5 CSS STARTS FROM HERE  */
+
+
+
+.section5{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 70px;
+    justify-content: center;
+
+}
+.text{
+    font-size: 50px;
+    font-weight: 600;
+    justify-content: center;
+}
+span{
+    font-size: 50px;
+    font-weight: 600;
+    color: #35C7AF;
+    padding-left: 7px;
+}
+
+/* SECTION 6 CSS START FROM HERE  */
+
+
+
+.section6{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+.border{
+    width: 380px;
+    /* height: 600px; */
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-left: 10PX;
+}
+.column2 >img {
+    margin-left: 64px;
+    max-width: 65%;
+} 
+.column2 >h3 {
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 600;
+} 
+.column2 >h4{
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 500px;
+}
+.column2 > p{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.column2 >span{
+    font-size: 30px;
+    visibility: hidden;
+}
+.column2 > button{
+    height: 55px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-bottom: 10px ;
+}
+#last{
+    margin-top: 30px;
+}
+
+
+
+/* SECTION 7 CSS STARTS FROM HERE  */
+
+
+
+.section7{
+    margin-top: 30px;
+    text-align: center;
+}
+.section7 > h3{
+    font-size: 49px;
+    font-weight: 600;
+    color: #35C7AF;
+}
+.section7 > h3 > spam{
+    font-size: 49px;
+    font-weight: 600;
+    color: black;
+}
+.section7 > h4{
+    font-size: 40px;
+    font-weight: 500;
+    color: #35C7AF;
+}
+
+
+
+/* SECTION 8 CSS STARTS FROM HERE  */
+
+
+
+.section8{
+    height: 180px;
+    color: white;
+    background-color: #174F5D;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 40px;
+}
+.col{
+    margin-top: 50px;
+    text-align: center;
+}
+.col h3{
+    font-size: 45px;
+    font-weight: 600;
+}
+.col h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* SECTION 9 CSS STRAT FROM HERE  */
+
+
+.section9{
+    text-align: center;
+    margin-top: 60px;
+}
+.section9 h4{
+    font-size: 55px;
+    font-weight: 600;
+    color: #35C7AF;
+}
+.section9 img{
+    max-width: fit-content;
+}
+
+
+/* FOOTER CSS STARTS FROM HERE  */
+
+footer{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.col1 h3{
+    font-size: 50px;
+}
+.col1 h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+.icon{
+    font-size: 35px;
+}
